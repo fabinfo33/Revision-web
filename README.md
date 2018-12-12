@@ -1,6 +1,6 @@
 # Revisions-Web
 
-Ce projet est destiné à rassembler les différents projets et exercices de lié
+Ce projet est destiné à rassembler les différents projets et exercices de liés
 aux technologies du Web.
 
 Entre autres : 
