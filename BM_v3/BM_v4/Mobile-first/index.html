@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Niramit:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Espace Membre v2</title>
+</head>
+<body>
+  <nav>
+    <div class="hamburger">
+      <i id="toggle-nav" class="fas fa-bars"></i>
+      <a href="index.html">Espace Membre</a>
+    </div>
+    <div id="navlinks" class="navlinks">
+      <a href="#">mon groupe</a>
+      <a href="#">mon groupe</a>
+      <a href="#">mon groupe</a>
+      <a href="#">mon groupe</a>
+    </div>
+  </nav>
+  <!-- Notification -->
+  <div class="notification">
+    <h4>Notification</h4>
+    <p>Ceci est une notification. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <footer class="notification-signature">Admin</footer>
+  </div>
+  <footer id="footer-bas">
+    <a href="contacts.html"><i class="fas fa-address-book"></i></a>
+    <a href="#"><i class="fas fa-calendar-times"></i></a>
+    <a href="#"><i class="fas fa-comments"></i></a>
+    <a href="#"><i class="fas fa-briefcase"></i></a>
+  </footer>
+  <div class="travail">
+    <h1>Travail à faire</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+  <script>
+  let mainNav = document.getElementById('navlinks');
+  let navBarToggle = document.getElementById('toggle-nav');
+
+  navBarToggle.addEventListener('click', function () {
+
+    mainNav.classList.toggle('display-flex');
+  });
+</script>
+</body>
+</html>

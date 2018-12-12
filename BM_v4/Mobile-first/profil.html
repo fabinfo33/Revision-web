@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Niramit:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Mon profil</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <nav>
+      <div class="hamburger">
+        <i id="toggle-nav" class="fas fa-bars"></i>
+        <a href="index.html">Espace Membre</a>
+      </div>
+      <div id="navlinks" class="navlinks">
+        <a href="#">mon groupe</a>
+        <a href="#">mon groupe</a>
+        <a href="#">mon groupe</a>
+        <a href="#">mon groupe</a>
+      </div>
+    </nav>
+    <!-- CONTENT -->
+    <div id="profil" class="flex-container">
+      <h1 class="page-title">Mon profil</h1>
+      <div class="profile-img">
+        <img src="profile1.jpeg" alt="photo de profil" width="100%;">
+        <p>John DOE</p>
+      </div>
+      <div class="info-profil">
+        <h3>Informations détaillées</h3>
+        <ul class="info-description">
+          <li class="info-data"><span class="info-title">Prénom</span> John</li>
+          <li class="info-data"><span class="info-title">Nom</span> Doe</li>
+          <li class="info-data"><span class="info-title">Groupe</span> Blue Motion</li>
+          <li class="info-data"><span class="info-title">Email</span> john.doe@doe.com</li>
+          <li class="info-data"><span class="info-title">Nom</span> Doe</li>
+          <li class="info-data"><span class="info-title">Groupe</span> Blue Motion</li>
+          <li class="info-data"><span class="info-title">Email</span> john.doe@doe.com</li>
+          <li class="info-data"><span class="info-title">Nom</span> Doe</li>
+          <li class="info-data"><span class="info-title">Groupe</span> Blue Motion</li>
+          <li class="info-data"><span class="info-title">Email</span> john.doe@doe.com</li>
+        </ul>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <footer id="footer-bas">
+      <a href="contacts.html"><i class="fas fa-address-book"></i></a>
+      <a href="#"><i class="fas fa-calendar-times"></i></a>
+      <a href="chatSystem.html"><i class="fas fa-comments"></i></a>
+      <a href="#"><i class="fas fa-briefcase"></i></a>
+    </footer>
+    <script>
+    let mainNav = document.getElementById('navlinks');
+    let navBarToggle = document.getElementById('toggle-nav');
+
+    navBarToggle.addEventListener('click', function () {
+
+      mainNav.classList.toggle('display-flex');
+    });
+    </script>
+  </body>
+</html>

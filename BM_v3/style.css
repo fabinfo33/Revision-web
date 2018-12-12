@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+.bg1 {
+  background-image: url("img/ingeson.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.bg-deep-blue {
+  background-color: #120936; color:#fff;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+.checked {
+  color: orange;
+}
+
+#login {
+  position: relative; width: 40%; margin: auto; margin-top: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  #login {
+    width: 100%;
+  }
+}

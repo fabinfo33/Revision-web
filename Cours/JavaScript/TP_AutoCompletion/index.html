@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TP Auto-completion</title>
+  </head>
+  <body>
+    <style media="screen">
+      div { border-collapse: collapse;}
+      #resultats {}
+      .resultat { border: 1px solid black; width: 250px; border-collapse: collapse;}
+      .resultat:hover { background-color: lightgrey; }
+      .resultat-active { background-color: lightgrey; }
+      #myForm input { width: 250px; }
+    </style>
+    <h2>TP Auto-completion</h2>
+
+    <form id="myForm" class="" action="autocomplete.php" method="get">
+      <input type="text" name="recherche"  autocomplete="off">
+    </form>
+
+    <!-- affichage des resultats -->
+    <div id="resultats" class="">
+      <div class="resultat">Paris</div>
+      <div class="resultat">Partis</div>
+    </div>
+    <script src="TP_autocomplete.js"></script>
+  </body>
+</html>

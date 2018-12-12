@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Niramit:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Mes Contacts</title>
+</head>
+<body id="contact-page">
+  <!-- HEADER -->
+  <nav>
+    <div class="hamburger">
+      <i id="toggle-nav" class="fas fa-bars"></i>
+      <a href="index.html">Espace Membre</a>
+    </div>
+    <div id="navlinks" class="navlinks">
+      <a href="#">mon groupe</a>
+      <a href="#">mon groupe</a>
+      <a href="#">mon groupe</a>
+      <a href="#">mon groupe</a>
+    </div>
+  </nav>
+  <!-- CONTENT -->
+  <div id="table-contact" class="contacts">
+    <h2>Mes Contacts</h2>
+    <table>
+      <tr>
+        <th>Prénom</th>
+        <th>Nom</th>
+        <th>Groupe</th>
+        <th>Profil</th>
+      </tr>
+      <tr>
+        <td>Fabien</td>
+        <td>Levy</td>
+        <td>Blue Motion</td>
+        <td>
+          <ul>
+            <li> <a href="profil.html"><i class="fas fa-user"></i></a> </li>
+            <li> <a href="#"><i class="fas fa-trash-alt"></i></a> </li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Léo</td>
+        <td>Bossy</td>
+        <td>Blue Motion</td>
+        <td>
+          <ul>
+            <li> <a href="#"><i class="fas fa-user"></i></a> </li>
+            <li> <a href="#"><i class="fas fa-trash-alt"></i></a> </li>
+          </ul>
+        </td>
+        <tr>
+          <td>Romain</td>
+          <td>Durandet</td>
+          <td>Blue Motion</td>
+          <td>
+            <ul>
+              <li> <a href="#"><i class="fas fa-user"></i></a> </li>
+              <li> <a href="#"><i class="fas fa-trash-alt"></i></a> </li>
+            </ul>
+          </td>
+        </table>
+      </div>
+      <!-- FOOTER -->
+      <footer id="footer-bas">
+        <a href="contacts.html"><i class="fas fa-address-book"></i></a>
+        <a href="#"><i class="fas fa-calendar-times"></i></a>
+        <a href="#"><i class="fas fa-comments"></i></a>
+        <a href="#"><i class="fas fa-briefcase"></i></a>
+      </footer>
+
+      <script>
+      let mainNav = document.getElementById('navlinks');
+      let navBarToggle = document.getElementById('toggle-nav');
+
+      navBarToggle.addEventListener('click', function () {
+        mainNav.classList.toggle('display-flex');}
+      );
+      </script>
+    </body>
+    </html>
