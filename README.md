@@ -1,4 +1,3 @@
-
 # Révisions-Web
 
 Ce projet est destiné à rassembler les différents projets et exercices de liés
@@ -57,9 +56,9 @@ Exercices :
 Exercices du cours de programmation web coté serveur.
 
 Technologies employées :
--HTML/CSS
--PHP
--ASP.net
--Symfony 4
--ASP MVC
+- HTML/CSS
+- PHP
+- ASP.net
+- Symfony 4
+- ASP MVC
 
