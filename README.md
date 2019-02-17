@@ -20,6 +20,9 @@ Elle se compose en deux parties :
 - La partie vitrine (public à but de communication sur les activités du groupe)
 - La partie gestion (privée, gestion du groupe)
 
+A noter : Il y a de nombreuses versions, car je change de techologie souvent
+(PHP pur, Symfony, MVC, pas MVC, etc..), à mesure que j'en apprends d'autres.
+BM V6 est fait à partir de Symfony 4 (non répertorié).
 Dossiers du projet :
 ```
 BD\ BM_v3\ BM_v4\
