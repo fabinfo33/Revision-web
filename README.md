@@ -48,9 +48,9 @@ Cours\JavaScript
 ```
 Exercices :
 - Utilisation de l'API REST de Wikipedia grâce à l'AJAX.
-- TP Autocompletion du cours dédié au JavaScript et à l'AJAX d'Openclassrooms 
+- TP Autocompletion du cours dédié au JavaScript et à l'AJAX d'Openclassrooms [NON FINI]
 [lien](https://openclassrooms.com/fr/courses/1916641-dynamisez-vos-sites-web-avec-javascript/2725496-tp-un-systeme-dauto-completion)
-
+- Autres exercices d'entrainement
 
 #### Exercices lié à ma formation
 Exercices du cours de programmation web coté serveur.
@@ -65,4 +65,12 @@ Technologies employées :
 Dossier du projet :
 ```
 S3_PHP/
+```
+##### Projet de programmation web 
+Projet réalisé en binôme en tant que synthèse du cours de prog web serveur.
+Il s'agit d'un petit site d'achat de musique classique.
+
+Dossier du projet :
+```
+projet_web_s3cl
 ```
