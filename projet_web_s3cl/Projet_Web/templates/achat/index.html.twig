@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Achat index{% endblock %}
+
+{% block body %}
+    <h1>Achat index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>CodeAchat</th>
+                <th>AchatConfirme</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for achat in achats %}
+            <tr>
+                <td>{{ achat.codeAchat }}</td>
+                <td>{{ achat.achatConfirme ? 'Yes' : 'No' }}</td>
+                <td>
+                    <a href="{{ path('achat_show', {'codeAchat': achat.codeAchat}) }}">show</a>
+                    <a href="{{ path('achat_edit', {'codeAchat': achat.codeAchat}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="3">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('achat_new') }}">Create new</a>
+{% endblock %}

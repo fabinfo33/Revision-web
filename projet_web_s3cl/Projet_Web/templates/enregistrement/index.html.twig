@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Enregistrement index{% endblock %}
+
+{% block body %}
+    <h1>Enregistrement index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Titre</th>
+                <th>Durée</th>
+                <th>Prix</th>
+                <th>Extrait</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for enregistrement in enregistrements %}
+            <tr>
+                <td>{{ enregistrement.titre }}</td>
+                <td>{{ enregistrement.duree }}</td>
+                <td>{{ enregistrement.prix }}</td>
+                <td>{{ enregistrement.extrait }}</td>
+                <td>
+                    <a href="{{ path('enregistrement_show', {'codeMorceau': enregistrement.codeMorceau}) }}">show</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="9">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

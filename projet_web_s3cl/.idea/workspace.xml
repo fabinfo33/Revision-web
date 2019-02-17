@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba7374c6-b715-47ca-95ee-65f5ada6d559" name="Default" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/Projet_Web/templates/musicien/oeuvres.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet_Web/src/Controller/MusicienController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Web/src/Controller/MusicienController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet_Web/src/Repository/MusicienRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Web/src/Repository/MusicienRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet_Web/templates/musicien/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Web/templates/musicien/index.html.twig" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet_Web/src/Repository/MusicienRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Web/src/Repository/MusicienRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet_Web/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Web/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet_Web/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Web/templates/base.html.twig" afterDir="false" />
+>>>>>>> 7ebc8c3df0f802dd0fd38503e41335e32aa423ad
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/Projet_Web/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="info dormeur" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="info dormeur" type="feb32156:DbDataSourceImpl" />
+        <item name="Classique_Web_2017: database" type="bdf80c8a:MssqlImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="info dormeur" type="feb32156:DbDataSourceImpl" />
+        <item name="Classique_Web_2017: database" type="bdf80c8a:MssqlImplModel$Database" />
+        <item name="dbo: schema" type="3adcb6a6:MssqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="info dormeur" type="feb32156:DbDataSourceImpl" />
+        <item name="Classique_Web_2017: database" type="bdf80c8a:MssqlImplModel$Database" />
+        <item name="dbo: schema" type="3adcb6a6:MssqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="info dormeur" type="feb32156:DbDataSourceImpl" />
+        <item name="Classique_Web_2017: database" type="bdf80c8a:MssqlImplModel$Database" />
+        <item name="dbo: schema" type="3adcb6a6:MssqlImplModel$Schema" />
+        <item name="routines" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projet_Web/src/Controller/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#34#55#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Projet_Web/templates/home/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="MusicienController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projet_Web/src/Controller/MusicienController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="135" column="36" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="36" />
+              <folding>
+                <element signature="e#34#58#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="oeuvres.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projet_Web/templates/musicien/oeuvres.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projet_Web/templates/musicien/show.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Projet_Web/templates/musicien/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="31" column="109" selection-start-line="31" selection-start-column="109" selection-end-line="31" selection-end-column="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MusicienRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projet_Web/src/Repository/MusicienRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+=======
+      <file leaf-file-name="BaseController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projet_Web/src/Controller/BaseController.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projet_Web/templates/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+>>>>>>> 7ebc8c3df0f802dd0fd38503e41335e32aa423ad
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2b366d0f-1f3b-435d-8b54-e90dce02c9b3/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="33" selection-start-column="56" selection-end-line="8" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console_1.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2b366d0f-1f3b-435d-8b54-e90dce02c9b3/console_1.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="51" selection-start-column="51" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DATABASE/2b366d0f-1f3b-435d-8b54-e90dce02c9b3.DATABASE:Classique_Web_2017" pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/2b366d0f-1f3b-435d-8b54-e90dce02c9b3.DATABASE:Classique_Web_2017">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>2b366d0f-1f3b-435d-8b54-e90dce02c9b3.DATABASE:Classique_Web_2017</OriginalElement>
+              <nodes>
+                <node x="997.4583333333334" y="702.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Musicien</node>
+                <node x="1430.0895061728393" y="512.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Type_Morceaux</node>
+                <node x="877.9382716049382" y="234.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Genre</node>
+                <node x="1047.2716049382716" y="990.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Interpreter</node>
+                <node x="240.35493827160485" y="0.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Pays</node>
+                <node x="430.932098765432" y="990.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composition_Disque</node>
+                <node x="1234.2716049382716" y="1001.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composer</node>
+                <node x="1687.0216049382716" y="757.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composition</node>
+                <node x="514.0" y="713.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Enregistrement</node>
+                <node x="1670.0216049382716" y="1001.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composition_Oeuvre</node>
+                <node x="1413.2716049382716" y="1001.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Instrumentation</node>
+                <node x="1427.0895061728393" y="713.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Oeuvre</node>
+                <node x="234.0" y="223.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Editeur</node>
+                <node x="0.0" y="1153.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.sysdiagrams</node>
+                <node x="59.5" y="990.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Achat</node>
+                <node x="767.8425925925925" y="990.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Direction</node>
+                <node x="266.0" y="757.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Disque</node>
+                <node x="282.0" y="468.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Album</node>
+                <node x="1125.0" y="512.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Instrument</node>
+                <node x="0.0" y="124.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Abonne</node>
+                <node x="754.0" y="779.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Orchestres</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Musicien" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Instrument">
+                  <point x="73.33333333333326" y="-114.0" />
+                  <point x="1180.7916666666665" y="677.0" />
+                  <point x="1161.1666666666667" y="677.0" />
+                  <point x="-72.33333333333326" y="48.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Instrumentation" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Oeuvre">
+                  <point x="48.5" y="-48.0" />
+                  <point x="1558.7716049382716" y="970.0" />
+                  <point x="1528.0895061728393" y="970.0" />
+                  <point x="0.0" y="103.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composer" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Oeuvre">
+                  <point x="39.75" y="-48.0" />
+                  <point x="1353.5216049382716" y="970.0" />
+                  <point x="1460.7561728395062" y="970.0" />
+                  <point x="-67.33333333333326" y="103.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Oeuvre" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Type_Morceaux">
+                  <point x="0.0" y="-103.0" />
+                  <point x="0.0" y="48.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composition_Oeuvre" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Oeuvre">
+                  <point x="-51.5" y="-48.0" />
+                  <point x="1721.5216049382716" y="970.0" />
+                  <point x="1595.4228395061727" y="970.0" />
+                  <point x="67.33333333333326" y="103.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Achat" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Abonne">
+                  <point x="-47.500000000000114" y="-59.0" />
+                  <point x="0.0" y="147.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Instrumentation" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Instrument">
+                  <point x="-48.5" y="-48.0" />
+                  <point x="1461.7716049382716" y="960.0" />
+                  <point x="1374.9166666666665" y="960.0" />
+                  <point x="1374.9166666666665" y="677.0" />
+                  <point x="1305.8333333333333" y="677.0" />
+                  <point x="72.33333333333326" y="48.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Album" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Editeur">
+                  <point x="-49.0" y="-92.0" />
+                  <point x="0.0" y="48.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Musicien" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Pays">
+                  <point x="0.0" y="-114.0" />
+                  <point x="1107.4583333333335" y="677.0" />
+                  <point x="1101.5416666666667" y="677.0" />
+                  <point x="1101.5416666666667" y="99.0" />
+                  <point x="388.6882716049382" y="99.0" />
+                  <point x="59.33333333333337" y="37.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Direction" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Orchestres">
+                  <point x="0.0" y="-59.0" />
+                  <point x="847.3425925925925" y="970.0" />
+                  <point x="862.0" y="970.0" />
+                  <point x="0.0" y="37.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Direction" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Musicien">
+                  <point x="53.0" y="-59.0" />
+                  <point x="900.3425925925925" y="970.0" />
+                  <point x="1034.125" y="970.0" />
+                  <point x="-73.33333333333337" y="114.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Album" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Genre">
+                  <point x="49.0" y="-92.0" />
+                  <point x="429.0" y="443.0" />
+                  <point x="928.9382716049382" y="443.0" />
+                  <point x="-51.0" y="37.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Achat" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Enregistrement">
+                  <point x="47.49999999999994" y="-59.0" />
+                  <point x="201.9999999999999" y="960.0" />
+                  <point x="541.5" y="960.0" />
+                  <point x="-82.5" y="103.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Interpreter" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Musicien">
+                  <point x="0.0" y="-59.0" />
+                  <point x="1130.7716049382716" y="970.0" />
+                  <point x="1107.4583333333335" y="970.0" />
+                  <point x="0.0" y="114.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Abonne" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Pays">
+                  <point x="0.0" y="-147.0" />
+                  <point x="107.0" y="99.0" />
+                  <point x="270.0216049382715" y="99.0" />
+                  <point x="-59.33333333333337" y="37.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Direction" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Enregistrement">
+                  <point x="-53.0" y="-59.0" />
+                  <point x="794.3425925925925" y="970.0" />
+                  <point x="651.5" y="970.0" />
+                  <point x="27.5" y="103.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composer" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Musicien">
+                  <point x="-39.75" y="-48.0" />
+                  <point x="1274.0216049382716" y="960.0" />
+                  <point x="1180.7916666666665" y="960.0" />
+                  <point x="73.33333333333326" y="114.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Musicien" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Genre">
+                  <point x="-73.33333333333326" y="-114.0" />
+                  <point x="1034.125" y="677.0" />
+                  <point x="1030.938271604938" y="677.0" />
+                  <point x="51.0" y="37.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Editeur" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Pays">
+                  <point x="0.0" y="-48.0" />
+                  <point x="331.0" y="99.0" />
+                  <point x="329.35493827160485" y="99.0" />
+                  <point x="0.0" y="37.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composition_Disque" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Enregistrement">
+                  <point x="38.0" y="-59.0" />
+                  <point x="544.932098765432" y="970.0" />
+                  <point x="596.5" y="970.0" />
+                  <point x="-27.5" y="103.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composition_Oeuvre" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composition">
+                  <point x="51.5" y="-48.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Interpreter" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Instrument">
+                  <point x="55.66666666666674" y="-59.0" />
+                  <point x="1186.438271604938" y="970.0" />
+                  <point x="1253.8395061728395" y="970.0" />
+                  <point x="1253.8395061728395" y="677.0" />
+                  <point x="1233.5" y="677.0" />
+                  <point x="0.0" y="48.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Interpreter" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Enregistrement">
+                  <point x="-55.66666666666663" y="-59.0" />
+                  <point x="1075.1049382716049" y="960.0" />
+                  <point x="706.5" y="960.0" />
+                  <point x="82.5" y="103.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composition_Disque" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Disque">
+                  <point x="-38.0" y="-59.0" />
+                  <point x="468.932098765432" y="950.0" />
+                  <point x="380.0" y="950.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+                <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Disque" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Album">
+                  <point x="0.0" y="-59.0" />
+                  <point x="0.0" y="92.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.24427480916030533" x="972.5" y="641.5" />
+              <SelectedNodes>
+                <node>2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Orchestres</node>
+              </SelectedNodes>
+              <Categories>
+                <Category />
+                <Category>Columns</Category>
+              </Categories>
+=======
+      <file leaf-file-name="MusicienController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projet_Web/src/Controller/MusicienController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-306">
+              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+              <folding>
+                <element signature="e#34#58#0#PHP" expanded="true" />
+              </folding>
+>>>>>>> 7ebc8c3df0f802dd0fd38503e41335e32aa423ad
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>appk</find>
+      <find>appKernel</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\falevy\Documents\projet_web_s3cl\Projet_Web</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Projet_Web/.env" />
+        <option value="$PROJECT_DIR$/Projet_Web/templates/musicien/best.html.twig" />
+        <option value="$PROJECT_DIR$/Projet_Web/config/packages/knp_paginator.yml" />
+        <option value="$PROJECT_DIR$/Projet_Web/templates/musicien/show.html.twig" />
+        <option value="$PROJECT_DIR$/Projet_Web/src/Entity/Musicien.php" />
+        <option value="$PROJECT_DIR$/Projet_Web/src/Entity/Abonne.php" />
+        <option value="$PROJECT_DIR$/Projet_Web/src/Entity/Achat.php" />
+        <option value="$PROJECT_DIR$/Projet_Web/src/Entity/Disque.php" />
+        <option value="$PROJECT_DIR$/Projet_Web/src/Entity/Enregistrement.php" />
+        <option value="$PROJECT_DIR$/Projet_Web/src/Entity/Genre.php" />
+        <option value="$PROJECT_DIR$/Projet_Web/src/Entity/Instrument.php" />
+        <option value="$PROJECT_DIR$/Projet_Web/src/Entity/Oeuvre.php" />
+        <option value="$PROJECT_DIR$/Projet_Web/src/Entity/TypeMorceaux.php" />
+        <option value="$PROJECT_DIR$/Projet_Web/src/Controller/HomeController.php" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/Projet_Web/templates/base.html.twig" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2b366d0f-1f3b-435d-8b54-e90dce02c9b3/console_1.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2b366d0f-1f3b-435d-8b54-e90dce02c9b3/console.sql" />
+        <option value="$PROJECT_DIR$/Projet_Web/src/Controller/MusicienController.php" />
+        <option value="$PROJECT_DIR$/Projet_Web/src/Repository/MusicienRepository.php" />
+        <option value="$PROJECT_DIR$/Projet_Web/templates/musicien/oeuvres.html.twig" />
+        <option value="$PROJECT_DIR$/Projet_Web/templates/musicien/index.html.twig" />
+=======
+        <option value="$PROJECT_DIR$/Projet_Web/src/Controller/MusicienController.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2b366d0f-1f3b-435d-8b54-e90dce02c9b3/console.sql" />
+        <option value="$PROJECT_DIR$/Projet_Web/src/Repository/MusicienRepository.php" />
+        <option value="$PROJECT_DIR$/Projet_Web/templates/base.html.twig" />
+>>>>>>> 7ebc8c3df0f802dd0fd38503e41335e32aa423ad
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/composer" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/test-pack" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/debug-pack" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/serializer-pack" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/web-server-bundle" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/profiler-pack" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/panther" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/easycorp/easy-log-handler" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/facebook/webdriver" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/knplabs/knp-components" />
+      <path value="$PROJECT_DIR$/Projet_Web/vendor/knplabs/knp-paginator-bundle" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="110" />
+    <option name="y" value="-16" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="projet_web_s3cl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet_web_s3cl" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projet_web_s3cl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet_web_s3cl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Projet_Web" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projet_web_s3cl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet_web_s3cl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Projet_Web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projet_web_s3cl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet_web_s3cl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Projet_Web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projet_web_s3cl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet_web_s3cl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Projet_Web" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repository" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projet_web_s3cl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet_web_s3cl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Projet_Web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projet_web_s3cl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet_web_s3cl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Projet_Web" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+>>>>>>> 7ebc8c3df0f802dd0fd38503e41335e32aa423ad
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="home" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projet_web_s3cl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet_web_s3cl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Projet_Web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="musicien" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="SQL Server (Microsoft)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba7374c6-b715-47ca-95ee-65f5ada6d559" name="Default" comment="" />
+      <created>1546957501042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546957501042</updated>
+      <workItem from="1546957502163" duration="1337000" />
+      <workItem from="1547036347872" duration="1785000" />
+      <workItem from="1547038168427" duration="625000" />
+      <workItem from="1547122540565" duration="1779000" />
+      <workItem from="1547124356106" duration="1851000" />
+      <workItem from="1547126240143" duration="1864000" />
+      <workItem from="1547128227828" duration="2130000" />
+      <workItem from="1547130388764" duration="1107000" />
+      <workItem from="1547132279120" duration="1817000" />
+      <workItem from="1547134125840" duration="1789000" />
+<<<<<<< HEAD
+      <workItem from="1547135944486" duration="1784000" />
+      <workItem from="1547137756880" duration="1794000" />
+      <workItem from="1547139590789" duration="1780000" />
+      <workItem from="1547141405795" duration="1773000" />
+      <workItem from="1547143224983" duration="1294000" />
+=======
+      <workItem from="1547135944486" duration="562000" />
+      <workItem from="1547137292115" duration="1392000" />
+>>>>>>> 7ebc8c3df0f802dd0fd38503e41335e32aa423ad
+    </task>
+    <task id="LOCAL-00001" summary="ajout pagination nulle de To + best + musicienRepository">
+      <created>1547132950875</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547132950875</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ajout de quelques repository">
+      <created>1547133270766</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547133270766</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="24509000" />
+=======
+    <option name="totallyTimeSpent" value="18038000" />
+>>>>>>> 7ebc8c3df0f802dd0fd38503e41335e32aa423ad
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1673774" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.26972282" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1609375" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" weight="0.26927084" />
+>>>>>>> 7ebc8c3df0f802dd0fd38503e41335e32aa423ad
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32897604" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.26252723" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.26248673" />
+>>>>>>> 7ebc8c3df0f802dd0fd38503e41335e32aa423ad
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32897604" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.42810458" />
+=======
+      <window_info active="true" anchor="bottom" id="Database Console" order="12" visible="true" weight="0.6296296" />
+>>>>>>> 7ebc8c3df0f802dd0fd38503e41335e32aa423ad
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ajout pagination nulle de To + best + musicienRepository" />
+    <MESSAGE value="ajout de quelques repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout de quelques repository" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Projet_Web/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Controller/MusicienController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="e#34#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/templates/musicien/best.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/templates/musicien/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/var/cache/dev/twig/8f/8f1f3fced7174ec73a9d254933d3461e76434e1e98ddeec1b72373ff70bc2636.php" />
+    <entry file="file://$PROJECT_DIR$/Projet_Web/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Controller/MusicienController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="e#34#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/templates/musicien/best.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/templates/musicien/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/var/cache/dev/twig/8f/8f1f3fced7174ec73a9d254933d3461e76434e1e98ddeec1b72373ff70bc2636.php" />
+    <entry file="file://$PROJECT_DIR$/Projet_Web/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Controller/MusicienController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+          <folding>
+            <element signature="e#34#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/templates/musicien/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/templates/musicien/best.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Controller/MusicienController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/templates/musicien/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/templates/musicien/best.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/templates/musicien/best.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/templates/musicien/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Controller/MusicienController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/var/cache/dev/twig/8f/8f1f3fced7174ec73a9d254933d3461e76434e1e98ddeec1b72373ff70bc2636.php" />
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/config/packages/knp_paginator.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="87" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/vendor/doctrine/doctrine-cache-bundle/Resources/doc/installation.rst" />
+    <entry file="file://$PROJECT_DIR$/Projet_Web/templates/musicien/best.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2b366d0f-1f3b-435d-8b54-e90dce02c9b3/database/Classique_Web_2017/schema/dbo/table/Musicien">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Entity/Musicien.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Entity/Abonne.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Entity/Achat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Entity/Disque.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Entity/Enregistrement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Entity/Instrument.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Entity/Oeuvre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Entity/TypeMorceaux.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2b366d0f-1f3b-435d-8b54-e90dce02c9b3/database/Classique_Web_2017/schema/dbo/table/Enregistrement">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/2b366d0f-1f3b-435d-8b54-e90dce02c9b3.SCHEMA:Classique_Web_2017.dbo">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>2b366d0f-1f3b-435d-8b54-e90dce02c9b3.SCHEMA:Classique_Web_2017.dbo</OriginalElement>
+          <nodes>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Instrumentation</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Musicien</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Album</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Genre</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Interpreter</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Pays</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composition_Disque</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composer</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composition_Oeuvre</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Enregistrement</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composition</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Editeur</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.sysdiagrams</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Achat</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Direction</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Disque</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Instrument</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Type_Morceaux</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Abonne</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Oeuvre</node>
+            <node x="" y="">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Orchestres</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8295506473724295" x="1185.0" y="832.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category />
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="das://2b366d0f-1f3b-435d-8b54-e90dce02c9b3/database/Classique_Web_2017/schema/dbo/table/Album">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Entity/Genre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="42" column="28" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> 7ebc8c3df0f802dd0fd38503e41335e32aa423ad
+    <entry file="uml://DATABASE/2b366d0f-1f3b-435d-8b54-e90dce02c9b3.DATABASE:Classique_Web_2017">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>2b366d0f-1f3b-435d-8b54-e90dce02c9b3.DATABASE:Classique_Web_2017</OriginalElement>
+          <nodes>
+            <node x="997.4583333333334" y="702.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Musicien</node>
+            <node x="1430.0895061728393" y="512.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Type_Morceaux</node>
+            <node x="877.9382716049382" y="234.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Genre</node>
+            <node x="1047.2716049382716" y="990.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Interpreter</node>
+            <node x="240.35493827160485" y="0.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Pays</node>
+            <node x="430.932098765432" y="990.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composition_Disque</node>
+            <node x="1234.2716049382716" y="1001.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composer</node>
+            <node x="1687.0216049382716" y="757.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composition</node>
+            <node x="514.0" y="713.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Enregistrement</node>
+            <node x="1670.0216049382716" y="1001.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composition_Oeuvre</node>
+            <node x="1413.2716049382716" y="1001.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Instrumentation</node>
+            <node x="1427.0895061728393" y="713.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Oeuvre</node>
+            <node x="234.0" y="223.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Editeur</node>
+            <node x="0.0" y="1153.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.sysdiagrams</node>
+            <node x="59.5" y="990.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Achat</node>
+            <node x="767.8425925925925" y="990.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Direction</node>
+            <node x="266.0" y="757.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Disque</node>
+            <node x="282.0" y="468.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Album</node>
+            <node x="1125.0" y="512.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Instrument</node>
+            <node x="0.0" y="124.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Abonne</node>
+            <node x="754.0" y="779.0">2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Orchestres</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Musicien" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Instrument">
+              <point x="73.33333333333326" y="-114.0" />
+              <point x="1180.7916666666665" y="677.0" />
+              <point x="1161.1666666666667" y="677.0" />
+              <point x="-72.33333333333326" y="48.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Instrumentation" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Oeuvre">
+              <point x="48.5" y="-48.0" />
+              <point x="1558.7716049382716" y="970.0" />
+              <point x="1528.0895061728393" y="970.0" />
+              <point x="0.0" y="103.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composer" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Oeuvre">
+              <point x="39.75" y="-48.0" />
+              <point x="1353.5216049382716" y="970.0" />
+              <point x="1460.7561728395062" y="970.0" />
+              <point x="-67.33333333333326" y="103.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Oeuvre" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Type_Morceaux">
+              <point x="0.0" y="-103.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composition_Oeuvre" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Oeuvre">
+              <point x="-51.5" y="-48.0" />
+              <point x="1721.5216049382716" y="970.0" />
+              <point x="1595.4228395061727" y="970.0" />
+              <point x="67.33333333333326" y="103.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Achat" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Abonne">
+              <point x="-47.500000000000114" y="-59.0" />
+              <point x="0.0" y="147.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Instrumentation" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Instrument">
+              <point x="-48.5" y="-48.0" />
+              <point x="1461.7716049382716" y="960.0" />
+              <point x="1374.9166666666665" y="960.0" />
+              <point x="1374.9166666666665" y="677.0" />
+              <point x="1305.8333333333333" y="677.0" />
+              <point x="72.33333333333326" y="48.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Album" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Editeur">
+              <point x="-49.0" y="-92.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Musicien" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Pays">
+              <point x="0.0" y="-114.0" />
+              <point x="1107.4583333333335" y="677.0" />
+              <point x="1101.5416666666667" y="677.0" />
+              <point x="1101.5416666666667" y="99.0" />
+              <point x="388.6882716049382" y="99.0" />
+              <point x="59.33333333333337" y="37.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Direction" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Orchestres">
+              <point x="0.0" y="-59.0" />
+              <point x="847.3425925925925" y="970.0" />
+              <point x="862.0" y="970.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Direction" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Musicien">
+              <point x="53.0" y="-59.0" />
+              <point x="900.3425925925925" y="970.0" />
+              <point x="1034.125" y="970.0" />
+              <point x="-73.33333333333337" y="114.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Album" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Genre">
+              <point x="49.0" y="-92.0" />
+              <point x="429.0" y="443.0" />
+              <point x="928.9382716049382" y="443.0" />
+              <point x="-51.0" y="37.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Achat" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Enregistrement">
+              <point x="47.49999999999994" y="-59.0" />
+              <point x="201.9999999999999" y="960.0" />
+              <point x="541.5" y="960.0" />
+              <point x="-82.5" y="103.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Interpreter" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Musicien">
+              <point x="0.0" y="-59.0" />
+              <point x="1130.7716049382716" y="970.0" />
+              <point x="1107.4583333333335" y="970.0" />
+              <point x="0.0" y="114.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Abonne" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Pays">
+              <point x="0.0" y="-147.0" />
+              <point x="107.0" y="99.0" />
+              <point x="270.0216049382715" y="99.0" />
+              <point x="-59.33333333333337" y="37.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Direction" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Enregistrement">
+              <point x="-53.0" y="-59.0" />
+              <point x="794.3425925925925" y="970.0" />
+              <point x="651.5" y="970.0" />
+              <point x="27.5" y="103.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composer" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Musicien">
+              <point x="-39.75" y="-48.0" />
+              <point x="1274.0216049382716" y="960.0" />
+              <point x="1180.7916666666665" y="960.0" />
+              <point x="73.33333333333326" y="114.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Musicien" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Genre">
+              <point x="-73.33333333333326" y="-114.0" />
+              <point x="1034.125" y="677.0" />
+              <point x="1030.938271604938" y="677.0" />
+              <point x="51.0" y="37.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Editeur" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Pays">
+              <point x="0.0" y="-48.0" />
+              <point x="331.0" y="99.0" />
+              <point x="329.35493827160485" y="99.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composition_Disque" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Enregistrement">
+              <point x="38.0" y="-59.0" />
+              <point x="544.932098765432" y="970.0" />
+              <point x="596.5" y="970.0" />
+              <point x="-27.5" y="103.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composition_Oeuvre" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composition">
+              <point x="51.5" y="-48.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Interpreter" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Instrument">
+              <point x="55.66666666666674" y="-59.0" />
+              <point x="1186.438271604938" y="970.0" />
+              <point x="1253.8395061728395" y="970.0" />
+              <point x="1253.8395061728395" y="677.0" />
+              <point x="1233.5" y="677.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Interpreter" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Enregistrement">
+              <point x="-55.66666666666663" y="-59.0" />
+              <point x="1075.1049382716049" y="960.0" />
+              <point x="706.5" y="960.0" />
+              <point x="82.5" y="103.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Composition_Disque" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Disque">
+              <point x="-38.0" y="-59.0" />
+              <point x="468.932098765432" y="950.0" />
+              <point x="380.0" y="950.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Disque" target="2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Album">
+              <point x="0.0" y="-59.0" />
+              <point x="0.0" y="92.0" />
+            </edge>
+          </edges>
+<<<<<<< HEAD
+          <settings layout="Hierarchic Group" zoom="0.24427480916030533" x="972.5" y="641.5" />
+          <SelectedNodes>
+            <node>2b366d0f-1f3b-435d-8b54-e90dce02c9b3.TABLE:Classique_Web_2017.dbo.Orchestres</node>
+          </SelectedNodes>
+=======
+          <settings layout="Hierarchic Group" zoom="0.7164236377590177" x="692.0" y="477.0" />
+          <SelectedNodes />
+>>>>>>> 7ebc8c3df0f802dd0fd38503e41335e32aa423ad
+          <Categories>
+            <Category />
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2b366d0f-1f3b-435d-8b54-e90dce02c9b3/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2b366d0f-1f3b-435d-8b54-e90dce02c9b3/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-column="56" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/templates/musicien/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+=======
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2b366d0f-1f3b-435d-8b54-e90dce02c9b3/console.sql" />
+    <entry file="das://2b366d0f-1f3b-435d-8b54-e90dce02c9b3/database/Classique_Web_2017/schema/dbo/table/Album">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Repository/MusicienRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#34#55#0#PHP" expanded="true" />
+          </folding>
+>>>>>>> 7ebc8c3df0f802dd0fd38503e41335e32aa423ad
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Controller/MusicienController.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="459">
+          <caret line="135" column="36" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="36" />
+=======
+        <state relative-caret-position="-306">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+>>>>>>> 7ebc8c3df0f802dd0fd38503e41335e32aa423ad
+          <folding>
+            <element signature="e#34#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Repository/MusicienRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/templates/musicien/oeuvres.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/templates/musicien/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="31" column="109" selection-start-line="31" selection-start-column="109" selection-end-line="31" selection-end-column="109" />
+=======
+    <entry file="file://$PROJECT_DIR$/Projet_Web/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/src/Controller/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet_Web/templates/home/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="19" />
+>>>>>>> 7ebc8c3df0f802dd0fd38503e41335e32aa423ad
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

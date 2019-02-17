@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Musiciens recherchés{% endblock %}
+
+{% block body %}
+    <p>Recherche : {{ keyword }}</p>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for musicien in musiciensTrouves %}
+                <tr>
+                    <td>{{ musicien.nomMusicien }}</td>
+                    <td>{{ musicien.prenomMusicien }}</td>
+                    <td>
+                        <a class="btn btn-primary btn-sm" href="{{ path('musicien_show', {'codeMusicien': musicien.codeMusicien}) }}">voir</a>
+                        <a class="btn btn-primary btn-sm" href="{{ path('musicien_oeuvres', {'codeMusicien': musicien.codeMusicien}) }}">Oeuvres</a>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+{% endblock %}

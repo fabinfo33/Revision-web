@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Profil{% endblock %}
+
+{% block body %}
+
+    <div class="container-fluid mt-4 px-1">
+        <h1>Profil de {{ abonne.prenomAbonne }} {{ abonne.nomAbonne }}</h1>
+
+        {% include ('abonne/_formCredit.html.twig') %}
+    </div>
+
+{% endblock %}

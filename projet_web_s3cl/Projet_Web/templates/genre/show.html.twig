@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ genre.LibelleAbrege }}{% endblock %}
+
+{% block body %}
+    <h1>{{ genre.LibelleAbrege }}</h1>
+    <div class="row m-1">
+    {% for album in genre.album %}
+            <div class="card col-lg-2 col-md-4">
+                <img class="card-img-top" src="data:image/png;base64,{{ album.getpochette64 }}" alt="photo album">
+                <div class="card-body">
+                    <h5 class="card-title">{{ album.titreAlbum }}</h5>
+                    <a href="{{ path('album_show', {'codeAlbum': album.codeAlbum}) }}" class="btn btn-primary">VOIR</a>
+                </div>
+                <div class="card-footer text-muted">
+                    REF:{{ album.asin }}
+                </div>
+            </div>
+    {% endfor %}
+    </div>
+
+{% endblock %}

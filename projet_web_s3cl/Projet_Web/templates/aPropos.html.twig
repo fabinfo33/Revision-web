@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}A propos{% endblock %}
+
+{% block body %}
+<div class="jumbotron">
+    <h1>A propos</h1>
+    <p>Ce site web a été réalisé par Fabien Levy et Daphné Aubert (d'où le "Fabda")</p>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="card col-8">
+            <div class="card-body">
+                <h5 class="card-title">Travail effectué</h5>
+                <p class="card-text">
+                <li>Parcours de la base de données</li>
+                <li>Inscription d'un abonné</li>
+                <li>Connexion/déconnexion d'un abonné</li>
+                <li>Ajout d'un enregistrement au panier</li>
+                <li>Supprimer un enregistrement du panier</li>
+                <li>Commander les enregistrements du panier (qui prend en compte les crédits de l'abonné)</li>
+                <li>Recherche de musicien et album</li>
+                </p>
+            </div>
+        </div>
+        <div class="card col-8"/> {#style="width: 18rem;">#}
+            <div class="card-body">
+                <h5 class="card-title">Difficultées rencontrées</h5>
+                <p class="card-text">
+                <li>Difficulté à bien mettre en forme les "forms"</li>
+                <li>Créer des association entre les tables de la base de données avec Doctrine (ManyToOne,
+                    OneToOne, etc...).</li>
+                <li>Pagination lente due à une utilisation non optimale du bundle de pagination KnpPaginatorBundle.
+                    Explication : dans MusicienController à la ligne 26.</li>
+                <li>Certaines associations provoque la génération de nombreuses requêtes (80+) sur une page qui n'utilise pas
+                    cette association, sans que l'on ai déterminé la cause. Exemple dans Enregistrement/show.html.twig
+                    ligne 18 (test nécessitant de décommenter les champs dans les entités associées + getters).
+                </li>
+                </p>
+            </div>
+    </div>
+
+</div>
+
+
+
+
+
+{% endblock %}

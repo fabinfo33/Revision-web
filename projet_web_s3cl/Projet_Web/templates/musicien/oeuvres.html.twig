@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Musicien oeuvres{% endblock %}
+
+{% block body %}
+    <div class="container-fluid mt-4">
+        <h1>Oeuvres de {{ musicien.prenomMusicien }} {{ musicien.nomMusicien }} </h1>
+
+        <ul>
+            {% for oeuvre in oeuvres %}
+                <li>{{ oeuvre.Titre_Oeuvre }}</li>
+
+            {% else %}
+                <tr>
+                    <td colspan="7">Pas d'oeuvres</td>
+                </tr>
+            {% endfor %}
+        </ul>
+    </div>
+
+
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}Albums recherchés{% endblock %}
+
+{% block body %}
+    <p>Recherche : {{ keyword }}</p>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Titre Album</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for album in albumsTrouves %}
+            <tr>
+                <td>{{ album.titreAlbum }}</td>
+                <td><a class="btn btn-primary btn-sm" href="{{ path('album_show', {'codeAlbum': album.codeAlbum }) }}">Voir</a></td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+{% endblock %}

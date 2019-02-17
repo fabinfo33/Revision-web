@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Enregistrement{% endblock %}
+
+{% block body %}
+    <h1>{{ enregistrement.titre }}</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Titre</th>
+                <td>{{ enregistrement.titre }}</td>
+            </tr>
+            <tr>
+                <th>Duree</th>
+                <td>{{ enregistrement.duree }}</td>
+            </tr>
+            {#<tr>#}
+            {#BUG : PROVOQUE DE NOMBREUSES REQUETE SUR ALBUM_SHOW#}
+                {#<th>Interprète</th>#}
+                {#{% if enregistrement.interpreter.musicien is defined and not null %}#}
+                    {#<td><a href="{{ path('musicien_show', {'codeMusicien' : enregistrement.interpreter.musicien.codeMusicien}) }}">{{ enregistrement.interpreter.musicien.nomMusicien }}</a></td>#}
+                {#{% else %}#}
+                    {#<td>Aucun interprète</td>#}
+                {#{% endif %}#}
+            {#</tr>#}
+            <tr>
+                <th>Prix</th>
+                <td>{{ enregistrement.prix }}</td>
+            </tr>
+            <tr>
+                <th>Extrait</th>
+                <td>
+                    <audio controls>
+                        <source src="data:audio/mp3;base64, {{ enregistrement.getextrait64 }}" type="audio/mp3">
+                    </audio>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('enregistrement_index') }}">back to list</a>
+
+{% endblock %}

@@ -1,0 +1,12 @@
+{{ form_start(rechercheForm) }}
+    {#{{ form_widget(rechercheForm) }}#}
+<div class="container-fluid">
+    <div class="row">
+        <div>
+            {{ form_row(rechercheForm.titreAlbum) }}
+            {{ form_row(rechercheForm.rechercher) }}
+        </div>
+    </div>
+</div>
+
+{{ form_end(rechercheForm) }}

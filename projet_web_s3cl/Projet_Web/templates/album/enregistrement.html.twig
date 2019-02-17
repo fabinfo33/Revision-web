@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Album{% endblock %}
+
+{% block body %}
+    <h1>Enregistrements de l'album {{ album.titreAlbum }}</h1>
+
+    <ul>
+        {% for enregistrement in enregistrements %}
+            <li>{{ enregistrement.Titre }}</li>
+            {% else %}
+            <p>Pas d'enregistrements</p>
+        {% endfor %}
+    </ul>
+
+
+    <a href="{{ path('album_index') }}">Retour à la liste des albums</a>
+
+{% endblock %}

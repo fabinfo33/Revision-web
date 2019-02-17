@@ -1,0 +1,42 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Albums index{% endblock %}
+
+{% block body %}
+    <h1>Albums</h1>
+
+    {#<form class="form-inline">#}
+        {#<input action="{{ path('album_recherche') }}" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="titreAlbum">#}
+        {#<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>#}
+    {#</form>#}
+
+    {% include('album/_formRecherche.html.twig') %}
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Titre</th>
+                <th>Sortie</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for album in pagination %}
+            <tr>
+                <td>{{ album.titreAlbum }}</td>
+                <td>{{ album.anneeAlbum }}</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="{{ path('album_show', {'codeAlbum': album.codeAlbum}) }}">voir</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="6">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <div class="navigation">
+        {{ knp_pagination_render(pagination) }}
+    </div>
+{% endblock %}

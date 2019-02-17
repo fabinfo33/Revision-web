@@ -1,0 +1,42 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Espace Abonné{% endblock %}
+
+{% block body %}
+
+    <div class="container-fluid mt-4 px-1">
+        {% for message in app.flashes('alerte') %}
+        <div class="alert alert-info">
+            {{ message }}
+        </div>
+        {% endfor %}
+        <h1>Bonjour {{ abonne.nomAbonne|capitalize }}</h1>
+        {% if abonne.credit == '' %}
+        <p>Crédit : <span class="badge badge-info">Aucun</span> <a href="{{ path('abonne_profil') }}">Créditer mon compte</a></p>
+        {% else %}
+        <p>Crédit : <span class="badge badge-info">{{ abonne.credit }}</span> <a href="{{ path('abonne_profil') }}">Créditer mon compte</a></p>
+        {% endif %}
+        <div class="table-responsive col-sm-4">
+            <h4>Mes derniers achats</h4>
+            <table class="table table-bordered">
+                <thead class="thead-light">
+                <tr>
+                    <th>ID</th>
+                    <th>Titre Enregistrement</th>
+                    <th>Montant</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for achat in achats %}
+                    <tr>
+                        <td>{{ achat.codeAchat }}</td>
+                        <td><a href="{{ path('enregistrement_show', {'codeMorceau': achat.enregistrement.codeMorceau}) }}">{{ achat.enregistrement.titre }}</a></td>
+                        <td>{{ achat.enregistrement.prix }}€</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+{% endblock %}

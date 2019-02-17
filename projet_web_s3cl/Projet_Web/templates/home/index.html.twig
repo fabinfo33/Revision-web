@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Fabda Music Shop{% endblock %}
+
+{% block body %}
+    <div class="jumbotron">
+        <h1>Bienvenue chez Fabda Music Shop</h1>
+        <p>Lancez vous dans l'achat de nos meilleurs enregistrements !</p>
+    </div>
+
+    {#AFFICHAGE DES ALBUMS PAR GENRE#}
+    <div class="container-fluid">
+        {% for genre in genres %}
+            <a href="{{ path('genre_show', {'codeGenre': genre.codeGenre}) }}"><h4>{{ genre.libelleAbrege }}</h4></a>
+            <div class="row m-1">
+                {% set i = 0 %}
+                {% for album in genre.album %}
+                    {% if i < 5 %}
+                    <div class="card col-lg-2 col-md-4">
+                        <img class="card-img-top" src="data:image/png;base64,{{ album.getpochette64 }}" alt="photo album">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ album.titreAlbum }}</h5>
+                            <a href="{{ path('album_show', {'codeAlbum': album.codeAlbum}) }}" class="btn btn-primary">VOIR</a>
+                        </div>
+                        <div class="card-footer text-muted">
+                            REF:{{ album.asin }}
+                        </div>
+                    </div>
+                        {% set i = i+1 %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}

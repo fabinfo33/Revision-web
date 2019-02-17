@@ -1,0 +1,42 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Musiciens index{% endblock %}
+
+{% block body %}
+    <h1>Musiciens</h1>
+
+    {% include('musicien/_formRecherche.html.twig') %}
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Année de naissance</th>
+                <th>Année de mort</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for musicien in pagination %}
+            <tr>
+                <td>{{ musicien.nomMusicien }}</td>
+                <td>{{ musicien.prenomMusicien }}</td>
+                <td>{{ musicien.anneeNaissance }}</td>
+                <td>{{ musicien.anneeMort }}</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="{{ path('musicien_show', {'codeMusicien': musicien.codeMusicien}) }}">voir</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="7">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {# display navigation #}
+    <div class="navigation">
+        {{ knp_pagination_render(pagination) }}
+    </div>
+{% endblock %}

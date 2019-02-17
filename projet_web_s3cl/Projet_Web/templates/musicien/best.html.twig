@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Musicien best{% endblock %}
+
+{% block body %}
+    <div class="container-fluid mt-4 px-4">
+        <div class="row">
+            {% for musicien in musiciens %}
+                <div class="card col-sm-4">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ musicien.nomMusicien}} {{ musicien.prenomMusicien }}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            {%  endfor %}
+        </div>
+    </div>
+{% endblock %}

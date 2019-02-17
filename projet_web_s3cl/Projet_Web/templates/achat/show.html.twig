@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Achat{% endblock %}
+
+{% block body %}
+    <h1>Achat</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>CodeAchat</th>
+                <td>{{ achat.codeAchat }}</td>
+            </tr>
+            <tr>
+                <th>AchatConfirme</th>
+                <td>{{ achat.achatConfirme ? 'Yes' : 'No' }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('achat_index') }}">back to list</a>
+
+    <a href="{{ path('achat_edit', {'codeAchat': achat.codeAchat}) }}">edit</a>
+
+    {{ include('achat/_delete_form.html.twig') }}
+{% endblock %}
