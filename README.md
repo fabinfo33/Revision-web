@@ -67,7 +67,7 @@ Technologies employées :
 
 Dossier du projet :
 ```
-S3_PHP/
+S3_WEB_SERVEUR/
 ```
 ##### Projet de programmation web 
 Projet réalisé en binôme en tant que synthèse du cours de prog web serveur.
