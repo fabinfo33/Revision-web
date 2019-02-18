@@ -1,0 +1,35 @@
+#calendrier {
+  border: 1px solid black;
+  width: 400px;
+  background-color: #f2f2f2;
+}
+
+#calendrier thead {
+  background-color: tomato;
+}
+
+#calendrier tr, td {
+  border: 1px solid black;
+}
+
+#calendrier tbody {
+  clear: both;
+  display: block;
+  width: 100%;
+}
+
+.joursSemaine th {
+  background-color: #8694f3;
+  padding: 2px 20px;
+  color: white;
+}
+
+.numSemaine th {
+  background-color: #8694f3;
+  padding: 2px 20px;
+  color: white;
+}
+
+.jours {
+  text-align: center;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <title>Login abonné</title>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="indexTD5.php">Retour au menu</a>
+    <span class="badge-red">PHP</span>
+  </nav>
+  <div class="container">
+    <div class="login-box">
+      <div class="title-login">
+        <h3>Espace abonné</h3>
+      </div>
+      <form class="loginForm" action="login_post.php" method="post">
+        <div class="login-input">
+          <label for="login">Login</label>
+          <input type="text" name="login" placeholder="Votre login" id="login">
+        </div>
+        <div class="login-input">
+          <label for="password">Mot de passe</label>
+          <input type="password" name="password" id="password">
+        </div>
+          <button class="btn-send" type="submit">Se connecter</button>
+      </form>
+      <div id="infos">
+          <a href="../TD4/formulaireabonne.html">Pas abonné ? Abonnez vous !</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
